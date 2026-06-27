@@ -1,0 +1,24 @@
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.navbar-brand img{
+    height: 100px;
+    width: auto;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.nav-link {
+    font-weight: 700;
+}
+
+.navbar {
+    overflow: visible;
+}
