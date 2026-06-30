@@ -1,7 +1,88 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.bloco-cursos {
-    
+body {
+    background-color: #e0e0e0;
+    color: #444;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.cursos-lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4rem;
+}
+
+.curso {
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+
+.curso-lista-item {
+    max-width: 20rem;
+}
+
+.curso-imagem {
+    position: relative;
+}
+
+.curso-imagem img {
+    max-width: 100%;
+}
+
+.icone-categoria {
+    position: absolute;
+    top: 20px;
+    left:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: #ff7f50b3;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.curso-titulo-container {
+    padding: 1rem 1rem;
+}
+
+.curso-titulo a {
+    color: #09294f;
+    text-decoration: none;
+}
+
+.curso-detalhes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.curso-detalhes-item {
+    color: #444;
+}
+
+.curso-botao {
+    display: block;
+    margin: 1rem 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: .4rem;
+    background-color: #c2ffee;
+    color: #20b8c0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.curso-botao::after {
+    content: " →";
 }
