@@ -122,7 +122,7 @@
     top: 80%;
     left: 2%;
     transform: translateY(-50%);
-    
+
 }
 
 .decoracao-pontos span {
@@ -136,7 +136,7 @@
     top: 40%;
     left: 87%;
     transform: translateY(-50%);
-    
+
 }
 
 .pontos-grandes span {
@@ -144,4 +144,86 @@
     height: 10px;
     border-radius: 50%;
     background-color: #ffffff;
+}
+
+#trilhas h2 {
+    color: #0f1250;
+}
+
+#trilhas article h3 {
+    color: #0f1250;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.bg-tecnologia {
+    background-color: #e6f4f1;
+}
+
+.bg-carreira {
+    background-color: #efebf8;
+}
+
+.bg-marketing {
+    background-color: #fef6e1;
+}
+
+.bg-pessoal {
+    background-color: #fdecec;
+}
+
+.bg-sust {
+    background-color: #e4f5f4;
+}
+
+.bg-educacao {
+    background-color: #e5eefd;
+}
+
+.titulo-secao {
+    color: #1a1a40;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.titulo-card {
+    color: #1a1a40;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.text-card {
+    color: #4a4a68;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.icone-card {
+    font-size: 1.8rem;
+}
+
+.icon-tecnologia {
+    color: #00A6A6;
+}
+
+.icon-carreira {
+    color: #4834D4;
+}
+
+.icon-marketing {
+    color: #2C3E50;
+}
+
+.icon-pessoal {
+    color: #FF7675;
+}
+
+.icon-sust {
+    color: #00B894;
+}
+
+.icon-educacao{
+    color: #1a49ab;
 }
