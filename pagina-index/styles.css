@@ -17,6 +17,7 @@
 
 .nav-link {
     font-weight: 700;
+    color: white;
 }
 
 .navbar {
@@ -330,10 +331,19 @@
     color: #00bfa5;
     font-size: 1.2rem;
     transition: color 0.3s ease;
-    transition: font-size 0.3s ease;
 }
 
 .link-ver-todos:hover{
     color: #009688;
+}
+
+.aspas-depoimento{
+    color: #00bfa5;
     font-size: 1.5rem;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.conteudo-depoimento{
+    padding-left: 10px;
 }
