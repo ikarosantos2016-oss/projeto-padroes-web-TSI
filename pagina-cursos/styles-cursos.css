@@ -34,6 +34,61 @@ h1 {
     color: #09294f;
 }
 
+.filtros-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.filtro {
+    flex-grow: 1;
+    max-width: 25rem;
+    padding: .5rem 1rem;
+    border: 3px solid #e0e0e0;
+    border-radius: .5rem;
+}
+
+.filtro-titulo {
+    font-size: 1rem;
+    color: #09294f;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.filtro-item {
+    display: flex;
+    border: 3px solid #e0e0e0;
+    border-radius: .5rem;
+}
+
+.filtro-item a {
+    flex-grow: 1;
+    text-align: center;
+    color: #444;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.filtro-item a:not(:last-child) {
+    border-right: 3px solid #e0e0e0;
+}
+
+.filtro-area select {
+    appearance: none;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border: 3px solid #e0e0e0;
+    border-radius: .5rem;
+    color: #444;
+    font-size: 0.9rem;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
+    background-repeat: no-repeat;
+    background-size: 1.5rem;
+    background-position: right 1rem center;
+}
+
 .cursos-lista {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
