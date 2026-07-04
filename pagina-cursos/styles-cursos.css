@@ -18,7 +18,7 @@ body {
 
 .caminho {
     display: inline-block;
-    font-size: 0.8rem;
+    font-size: .8rem;
     color: #444;
     margin-bottom: 10px;
     word-spacing: 10px;
@@ -36,6 +36,7 @@ h1 {
 
 .filtros-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     margin-bottom: 1rem;
 }
@@ -65,28 +66,68 @@ h1 {
     flex-grow: 1;
     text-align: center;
     color: #444;
-    padding: 0.5rem 1rem;
+    padding: .5rem 1rem;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: .9rem;
 }
 
 .filtro-item a:not(:last-child) {
     border-right: 3px solid #e0e0e0;
 }
 
-.filtro-area select {
+.select-padrao {
     appearance: none;
     width: 100%;
     padding: 0.5rem 1rem;
     border: 3px solid #e0e0e0;
     border-radius: .5rem;
     color: #444;
-    font-size: 0.9rem;
+    font-size: .9rem;
     cursor: pointer;
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%23888888' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polyline points='6 9 12 15 18 9'></polyline></svg>");
     background-repeat: no-repeat;
     background-size: 1.5rem;
     background-position: right 1rem center;
+}
+
+.filtro-limpar {
+    width: 100%;
+    text-align: left;
+    margin-top: .5rem;
+    color: #444;
+    background-color: #fff;
+    font-size: 1rem;
+    border: 3px solid #e0e0e0;
+    border-radius: .5rem;
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+.ordenar-cursos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    font-size: .8rem;
+    color: #09294f;
+    font-weight: 600;
+}
+
+.ordenar-cursos-canto {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ordenar-cursos .select-padrao {
+    width: auto;
+    min-width: 10rem;
+    color: #444444ac;
+    font-size: 0.7rem;
+    padding: .4rem .4rem;
+    border: 2px solid #e0e0e0;
+    background-size: 1rem;
+    background-position: right 0.5rem center;
 }
 
 .cursos-lista {
