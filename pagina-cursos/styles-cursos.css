@@ -34,6 +34,32 @@ h1 {
     color: #09294f;
 }
 
+.busca-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.busca-container input {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    border: 3px solid #20b8c083;
+    border-radius: 1.5rem;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+.icone-busca{
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #444;
+    font-size: 1.2rem;
+}
+
 .filtros-container {
     display: flex;
     flex-wrap: wrap;
@@ -135,6 +161,7 @@ h1 {
     display: flex;
     align-items: flex-start;
     gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .cursos-container {
@@ -146,6 +173,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: center;
     gap: 1rem;
+    width: 100%;
 }
 
 .curso {
@@ -156,7 +184,9 @@ h1 {
 }
 
 .curso-lista-item {
-    max-width: 18rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .curso-imagem {
@@ -220,7 +250,7 @@ h1 {
 }
 
 .curso-titulo-container {
-    padding: 1rem 1rem;
+    padding: .5rem 1rem;
 }
 
 .curso-titulo a {
@@ -233,6 +263,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
+    margin-top: auto;
 }
 
 .curso-detalhes-item {
