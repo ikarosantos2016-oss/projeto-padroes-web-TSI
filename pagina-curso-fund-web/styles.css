@@ -42,6 +42,7 @@
 #hero img {
     position: relative;
     z-index: 2;
+    left: 22%;
 }
 
 #hero div h2 {
@@ -50,8 +51,10 @@
     font-weight: 900;
 }
 
-#hero div h2 span {
+#hero div p span {
     color: #0abfba;
+    font-size: 0.7rem;
+    font-weight: 700;
 }
 
 #hero div p {
@@ -73,21 +76,8 @@
     border-radius: 50%;
 
     position: absolute;
-    top: 0px;
-    left: 48%;
-}
-
-.shape-yellow {
-    width: 350px;
-    height: 350px;
-
-    background: #ffc928;
-
-    border-radius: 50%;
-
-    position: absolute;
-    right: -50px;
-    top: 0px;
+    top: -30px;
+    left: 75%;
 }
 
 .curve {
@@ -101,7 +91,7 @@
     border-radius: 50%;
 
     position: absolute;
-    left: 50px;
+    left: 65%;
     top: -50px;
 }
 
@@ -113,17 +103,9 @@
     z-index: 0;
 }
 
-.pontos-grandes {
-    position: absolute;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
-    z-index: 0;
-}
-
 .pontos-esquerda {
-    top: 80%;
-    left: 2%;
+    top: 10%;
+    left: 70%;
     transform: translateY(-50%);
 
 }
@@ -135,16 +117,10 @@
     background-color: #12b7b6;
 }
 
-.pontos-direita {
-    top: 40%;
-    left: 87%;
-    transform: translateY(-50%);
-
+.border-end {
+    border-right: 1px solid #dee2e6;
 }
 
-.pontos-grandes span {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #ffffff;
+.border-end:last-child {
+    border-right: none;
 }
