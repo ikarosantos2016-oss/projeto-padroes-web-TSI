@@ -124,3 +124,45 @@
 .border-end:last-child {
     border-right: none;
 }
+
+#trilhas h2 {
+    color: #0f1250;
+}
+
+#trilhas article h3 {
+    color: #0f1250;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.titulo-secao {
+    color: #1a1a40;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.titulo-card {
+    color: #1a1a40;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.text-card {
+    color: #4a4a68;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+.icone-card {
+    font-size: 1.8rem;
+}
+
+.bg-web {
+    background-color: #f2f8f8;
+}
+
+.icon-web {
+    color: #05afae;
+}
