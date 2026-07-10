@@ -62,28 +62,14 @@
     height: 100%;
 }
 
-.ordenar-cursos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: .5rem;
-    gap: 1rem;
-    font-size: .8rem;
-    color: #09294f;
-    font-weight: 600;
-}
-
 .ordenar-cursos-canto {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-.ordenar-cursos .select-padrao {
-    width: auto;
+#select-ordenar .select-padrao {
     min-width: 10rem;
-    color: #444444ac;
-    font-size: 0.7rem;
     padding: .4rem .4rem;
     border: 2px solid #e0e0e0;
     background-size: 1rem;
