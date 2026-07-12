@@ -254,3 +254,37 @@
     font-weight: 800;
     font-size: 1.1rem;
 }
+
+#turmas{
+    border-radius:16px;
+}
+
+#turmas table{
+    font-size:.82rem;
+}
+
+#turmas thead th{
+    color:#6c757d;
+    font-size:.75rem;
+    font-weight:700;
+    border-bottom:1px solid #dee2e6;
+}
+
+#turmas tbody td{
+    color:#3b3b52;
+    vertical-align:middle;
+}
+
+#turmas tbody tr:hover{
+    background:#f8fbfc;
+}
+
+#turmas .alert{
+    background:#eef9fb;
+    color:#4d6d74;
+}
+
+#turmas .bi-info-circle-fill{
+    color:#19b6b4;
+    font-size:1rem;
+}
