@@ -65,7 +65,7 @@
 .conteudo-hero {
     position: relative;
     z-index: 1;
-    margin: 20px 100px 20px;
+    margin: 20px 45px 20px;
 }
 
 .shape-green {
@@ -117,19 +117,19 @@
     background-color: #12b7b6;
 }
 
-.border-end {
-    border-right: 1px solid #dee2e6;
+.border-end-custom{
+    border-right: 1px solid #9da3a3 !important;
 }
 
 .border-end:last-child {
     border-right: none;
 }
 
-#trilhas h2 {
+#aprender h2 {
     color: #0f1250;
 }
 
-#trilhas article h3 {
+#aprender article h3 {
     color: #0f1250;
     font-weight: 700;
     font-size: 1.2rem;
@@ -165,4 +165,69 @@
 
 .icon-web {
     color: #05afae;
+}
+
+.lista-modulos{
+    position: relative;
+    padding-left: 20px;
+}
+
+.lista-modulos::before{
+    content: '';
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    bottom: 20px;
+    width: 2px;
+    height: 85%;
+    background-color: #05afae;
+    z-index: 0;
+}
+
+.item-modulos{
+    position: relative;
+    z-index: 1;
+}
+
+.numero-modulos{
+    width: 40px;
+    height: 40px;
+    background-color: #05afae;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+
+.conteudo-modulos{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.conteudo-modulos:houver{
+    background-color: #f8f9fa;
+}
+
+.conteudo-depoimento{
+    padding-left: 10px;
+}
+
+.intrutor{
+    background-color: #ffffff;
+}
+
+#instrutor i{
+    color:#05a7ae;
+    font-size: 1.2rem;
+}
+
+.titulo-instrutor {
+    color: #0abfba;
+    font-size: 0.9rem;
+    font-weight: 700;
 }
