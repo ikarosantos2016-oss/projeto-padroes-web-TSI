@@ -117,7 +117,7 @@
     background-color: #12b7b6;
 }
 
-.border-end-custom{
+.border-end-custom {
     border-right: 1px solid #9da3a3 !important;
 }
 
@@ -167,12 +167,12 @@
     color: #05afae;
 }
 
-.lista-modulos{
+.lista-modulos {
     position: relative;
     padding-left: 20px;
 }
 
-.lista-modulos::before{
+.lista-modulos::before {
     content: '';
     position: absolute;
     left: 40px;
@@ -184,12 +184,12 @@
     z-index: 0;
 }
 
-.item-modulos{
+.item-modulos {
     position: relative;
     z-index: 1;
 }
 
-.numero-modulos{
+.numero-modulos {
     width: 40px;
     height: 40px;
     background-color: #05afae;
@@ -203,26 +203,26 @@
     flex-shrink: 0;
 }
 
-.conteudo-modulos{
+.conteudo-modulos {
     background-color: white;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.conteudo-modulos:houver{
+.conteudo-modulos:houver {
     background-color: #f8f9fa;
 }
 
-.conteudo-depoimento{
+.conteudo-depoimento {
     padding-left: 10px;
 }
 
-.intrutor{
+.intrutor {
     background-color: #ffffff;
 }
 
-#instrutor i{
-    color:#05a7ae;
+#instrutor i {
+    color: #05a7ae;
     font-size: 1.2rem;
 }
 
@@ -230,4 +230,27 @@
     color: #0abfba;
     font-size: 0.9rem;
     font-weight: 700;
+}
+
+.card-gratuito {
+    background-color: #e4f5f7;
+    border: none;
+    color: #1f566b;
+    font-size: 0.7rem;
+    font-weight: 700;
+    height: 80% !important;
+    margin-left: 20px;
+    padding: 2px;
+}
+
+.dinheiro {
+    color: #1CA9A9;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-dados {
+    color: #1a1a40;
+    font-weight: 800;
+    font-size: 1.1rem;
 }

@@ -35,7 +35,7 @@
     <main>
 
         <div class="container-fluid">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-8">
                     <section id="hero">
 
@@ -71,20 +71,23 @@
 
                                     <div class="d-flex justify-content-between text-muted small">
                                         <span class="border-end border-2 border-end-custom px-3 d-flex"><i
-                                                class="bi bi-clock pe-2 icone-card" style="position: relative; top: 5px;"></i>
+                                                class="bi bi-clock pe-2 icone-card"
+                                                style="position: relative; top: 5px;"></i>
                                             <div><strong>carga
                                                     horária</strong> <br>
                                                 <p>20 horas</p>
                                             </div>
                                         </span>
                                         <span class="border-end border-2 border-end-custom px-3 d-flex"><i
-                                                class="bi bi-bar-chart pe-2 icone-card" style="position: relative; top: 5px;"></i>
+                                                class="bi bi-bar-chart pe-2 icone-card"
+                                                style="position: relative; top: 5px;"></i>
                                             <div><strong>Nivel</strong><br>
                                                 <p>Iniciante</p>
                                             </div>
                                         </span>
                                         <span class="border-end border-2 border-end-custom px-3 d-flex"><i
-                                                class="bi bi-bar-chart pe-2 icone-card" style="position: relative; top: 5px;"></i>
+                                                class="bi bi-bar-chart pe-2 icone-card"
+                                                style="position: relative; top: 5px;"></i>
                                             <div><strong>Nivel</strong><br>
                                                 <p>Inclusivo</p>
                                             </div>
@@ -99,8 +102,7 @@
                                 </div>
                                 <div class="col-6">
                                     <img src="../pagina-curso-fund-web/imagens-fund-web/imagem-fund-web.png"
-                                        class="img-fluid" alt="Imagem de 
-            estudantes olhando para o notebook">
+                                        class="img-fluid" alt="Imagem de estudantes olhando para o notebook">
                                 </div>
                             </div>
                         </div>
@@ -235,7 +237,49 @@
 
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 ">
+                    <section id="matricula" class="card mb-3 mt-3 shadow-sm" style="max-width: 30rem;">
+                        <div class="card-body">
+                            <h3 class="card-title titulo-secao">Matricule-se</h3>
+                            <div class="col" style="margin-bottom: 20px;">
+                                <div class="card h-100 border-0 rounded-4 p-2 bg-web">
+                                    <article class="card-body d-flex p-0">
+                                        <h5 class="dinheiro">R$ 0,00</h5>
+                                        <p class="card card-text texto-card card-gratuito">Curso Gratuito</p>
+                                    </article>
+                                    <div>
+                                        <p class="text-muted " style="font-size: 0.8rem;">Acesso ilimitado por 90 dias.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h5 class="titulo-dados">Seus dados</h5>
+
+                                <form action="#" method="post">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite seu nome">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">E-mail</label>
+                                        <input type="email" class="form-control" name="email" id="email" placeholder="Digite seu e-mail">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="cpf" class="form-label">CPF</label>
+                                        <input type="text" name="cpf" class="form-control" id="cpf" placeholder="000.000.000-00" maxlength="14" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Quero receber novidades e dicas de aprendizado.</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-danger fw-bold me-5" style="width: 100%;">Confirmar matrícula <i class="bi bi-arrow-right"></i></button>
+                                </form>
+                                <p class="text-muted text-center p-2"><i class="bi bi-shield-lock"></i>Seus dados estão seguros com nosco.</p>
+                            </div>
+                        </div>
+                    </section>
 
                 </div>
             </div>
