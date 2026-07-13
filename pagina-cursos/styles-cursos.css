@@ -76,23 +76,11 @@
     background-position: right 0.5rem center;
 }
 
-.container-cursos-trilhas {
-    display: flex;
-    align-items: flex-start;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
-
-.cursos-container {
-    flex: 3;
-}
-
 .cursos-lista {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     justify-items: center;
     gap: 1rem;
-    width: 100%;
 }
 
 .curso {
@@ -114,7 +102,7 @@
 
 .curso-imagem img {
     width: 100%;
-    height: 10rem;
+    height: 9rem;
     object-fit: cover;
 }
 
@@ -172,6 +160,11 @@
     padding: .5rem 1rem;
 }
 
+.curso-titulo h2 {
+    font-size: 1.25rem;
+    line-height: 0.5;
+}
+
 .curso-titulo a {
     color: #09294f;
     font-size: 1.25rem;
@@ -208,7 +201,6 @@
 }
 
 .trilhas-container{
-    flex: 1;
     max-width: 20rem;
     padding: 1rem;
     border: 3px solid #e0e0e0;
