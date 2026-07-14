@@ -28,6 +28,10 @@
     overflow: visible;
 }
 
+.container {
+    
+}
+
 #busca input {
     border-radius: 2rem;
     cursor: pointer;
@@ -56,6 +60,12 @@
     background-repeat: no-repeat;
     background-size: 1.5rem;
     background-position: right 1rem center;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1520px;
+    }
 }
 
 #filtro-botao {
@@ -202,6 +212,7 @@
 
 .trilhas-container{
     max-width: 20rem;
+    min-width: 10rem;
     padding: 1rem;
     border: 3px solid #e0e0e0;
     border-radius: .7rem;
@@ -234,7 +245,6 @@
     background-color: #fff;
     border: 3px solid #e0e0e0;
     border-radius: .5rem;
-    overflow: hidden;
 }
 
 .trilha-lista-item {
@@ -242,11 +252,12 @@
     align-items: center;
     gap: 1rem;
     padding: .5rem;
+    overflow: hidden;
 }
 
 .trilha-detalhes {
-    flex: 1;
     align-content: center;
+    overflow: scroll;
 }
 
 .trilha-titulo {
