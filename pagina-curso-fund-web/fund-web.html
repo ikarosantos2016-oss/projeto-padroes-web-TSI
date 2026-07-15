@@ -23,8 +23,8 @@
 
                 <div class="d-flex align-items-center">
                     <a href="../pagina-cursos/cursos.html" class="nav-link me-3">Explorar cursos</a>
-                    <a href="#" class="nav-link me-3">Trilhas de aprendizagem</a>
-                    <a href="#" class="nav-link me-3">Cursos em destaque</a>
+                    <a href="#turmas" class="nav-link me-3">Turmas Disponiveis</a>
+                    <a href="#modulos" class="nav-link me-3">Modulos</a>
                     <a href="../pagina-cursos/cursos.html" class="btn btn-warning fw-bold me-5" role="button">Comece sua
                         jornada</a>
                 </div>
@@ -261,18 +261,18 @@
                                     <div class="mb-3">
                                         <label for="nome" class="form-label">Nome</label>
                                         <input type="text" name="nome" class="form-control" id="nome"
-                                            placeholder="Digite seu nome">
+                                            placeholder="Digite seu nome" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="email" class="form-label">E-mail</label>
                                         <input type="email" class="form-control" name="email" id="email"
-                                            placeholder="Digite seu e-mail">
+                                            placeholder="Digite seu e-mail" required>
                                     </div>
                                     <div class="mb-3">
                                         <label for="cpf" class="form-label">CPF</label>
                                         <input type="text" name="cpf" class="form-control" id="cpf"
                                             placeholder="000.000.000-00" maxlength="14"
-                                            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                                            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required>
                                     </div>
                                     <div class="mb-3 form-check">
                                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -418,8 +418,8 @@
                     <p class="small">Receber novidades e dicas de aprendizado</p>
                     <form class="input-group">
                         <input type="email" class="form-control form-control-sm" id="email" name="email"
-                            placeholder="Seu e-mail">
-                        <button class="btn btn-info text-white" type="button">Inscrever-se</button>
+                            placeholder="Seu e-mail" required>
+                        <button class="btn btn-info text-white" type="submit">Inscrever-se</button>
                     </form>
                 </div>
             </div>

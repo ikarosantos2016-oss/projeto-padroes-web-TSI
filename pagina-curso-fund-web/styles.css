@@ -135,10 +135,25 @@
     font-size: 1.2rem;
 }
 
+#aprender .card:hover{
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 18px 35px rgba(0, 0, 0, .18);
+    filter: brightness(1.05);
+}
+
+#aprender .card:hover .icone-card{
+    transform: scale(1.25);
+}
+
 .titulo-secao {
     color: #1a1a40;
     font-weight: 800;
     font-size: 1.4rem;
+}
+
+.card{
+    border: 1px solid #eee;
+    transition: all .35s ease;
 }
 
 .titulo-card {
@@ -157,6 +172,7 @@
 
 .icone-card {
     font-size: 1.8rem;
+    transition: transform .35s ease;
 }
 
 .bg-web {
