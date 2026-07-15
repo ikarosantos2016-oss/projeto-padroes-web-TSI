@@ -32,12 +32,6 @@ body {
     overflow: visible;
 }
 
-@media (min-width: 1600px) {
-    .container {
-        max-width: 1520px;
-    }
-}
-
 .caminho {
     color: #444444ac;
 }
@@ -67,7 +61,7 @@ body {
     border-radius: .2rem;
     padding: .2rem;
     overflow: hidden;
-    transition: all 0.3s ease-in;
+    transition: all .35s ease;
 }
 
 .filtro-item a:hover {
@@ -120,12 +114,12 @@ body {
     border: 3px solid #e0e0e0;
     border-radius: .5rem;
     overflow: hidden;
-    transition: all 0.2s ease-in;
+    transition: all 0.35s ease;
 }
 
 .curso:hover {
-    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.3);
-    transform: translateY(-3px);
+    box-shadow: 0 18px 35px rgb(0, 0, 0, 0.18);
+    transform: translateY(-10px) scale(1.03);
 }
 
 .curso-lista-item {
@@ -233,7 +227,7 @@ body {
     font-size: .9rem;
     text-align: center;
     font-weight: 1000;
-    transition: all 0.3s ease-in;
+    transition: all .35s ease;
 }
 
 .botao-detalhar:hover {
@@ -284,8 +278,8 @@ body {
 }
 
 .trilha:hover {
-    box-shadow: 0 5px 5px rgb(0, 0, 0, 0.2);
-    transform: translateY(-3px);
+    box-shadow: 0 9px 18px rgb(0, 0, 0, 0.18);
+    transform: translateY(-5px) scale(1.03);
 }
 
 .trilha-lista-item {
